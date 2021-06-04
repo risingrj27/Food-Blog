@@ -1,0 +1,236 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background: whitesmoke;
+}
+#menu{
+    display: none;
+}
+#cart{
+    display: none;
+}
+
+.container {
+    padding: 40px;
+}
+.header{
+    display: flex;
+}
+h2{
+    
+    font-size: 40px;
+    margin-bottom: -50px;
+    margin-left: 50px;
+}
+.navbar {
+    position: absolute;
+    margin-top: 80px;
+    width: 180px;
+    /* border: 1px solid blue; */
+}
+.navbar button {
+    background-color: salmon;
+    width: 105px;
+    padding: 15px;
+    color: white;
+    border: none;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-left: -17px;
+    border-radius: 30px;
+}
+.navbar ul {
+    display: flex;
+    flex-direction: column;
+
+}
+.navbar ul li {
+    text-decoration: none;
+    list-style: none;
+    color: darkgray;
+    padding: 15px;
+}
+.content{
+    /* border: 1px solid pink; */
+    margin-left: 150px;
+    display: inline-block;
+}
+.content-info {
+    width: 1000px;
+    display: flex;
+    margin-left: 80px;
+    justify-content: space-evenly;
+}
+#about{
+    text-decoration:line-through;
+    text-decoration-color: salmon;
+    /* text-decoration-thickness: 2px; */
+}
+.content-info h1 {
+    font-size: 70px;
+}
+.content-info span {
+    margin-top: 60px;
+    color: darkgray;
+    height: 90px;
+}
+.images {
+    display: flex;
+    margin-left: 80px;
+    justify-content: space-evenly;
+}
+.images img {
+    border-radius: 50%;
+    width: 150px;
+}
+#one {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    height: 202px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 15px 2px rgb(209, 205, 205);
+}
+#two {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 10px;
+    height: 202px;
+    box-shadow: 0px 0px 15px 2px rgb(209, 205, 205);
+}
+#three {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 10px;
+    height: 202px;
+    box-shadow: 0px 0px 15px 2px rgb(209, 205, 205);
+}
+#four {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 10px;
+    height: 202px;
+    box-shadow: 0px 0px 15px 2px rgb(209, 205, 205);
+}
+#five {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 10px;
+    height: 202px;
+    box-shadow: 0px 0px 15px 2px rgb(209, 205, 205);
+}
+h5 {
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 2px;
+}
+#border {
+    position: absolute;
+    border-bottom: 2px solid salmon;
+    width: 50px;
+    margin-top: 145px;
+    margin-left: 520px;
+}
+.span{
+    display: none;
+}
+@media (max-width:500px) {
+    .container{
+        display: grid;
+        padding: 20px;
+    }
+    #cart{
+        display: block;
+        position: absolute;
+        font-size: 40px;
+        margin: 40px 0 0 360px;
+    }
+    #menu{
+        display: block;
+        float: left;
+        position: absolute;
+        font-size: 35px;
+        margin: 40px 400px 0 0;
+    }
+    #head{
+        display: none;
+    }
+    .header{
+        justify-content: center;
+        position: absolute;
+        margin-left: -60px;
+    }
+    .header h2 {
+        margin-bottom: 50px;
+    }
+    .logocontent{
+        width: 450px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar{
+        display: none;
+    }
+    .content-info span{
+        display: none;
+    }
+    .content-info h5 {
+        display: none;
+    }
+    .content{
+        /* border: 1px solid pink; */
+        margin-left: -1px;
+        display: block;
+        width: 450px;
+    }
+    /* .content h4{
+        display: block;
+        position: absolute;
+    } */
+    .content-info h1{
+        font-size: 45px;
+        float: left;
+        margin-left: -1px;
+        margin-top: -10px;
+        /* width: 700px; */
+        /* position: absolute; */
+    }
+    .content-info {
+        /* border: 1px solid black; */
+        width: 400px;
+        display: flex;
+        margin-left: 10px;
+        justify-content: space-evenly;
+    }
+    #one {
+        display: none;
+    }
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        float: left;
+        margin-left: -2px;
+        padding: 15px;
+    }
+    .span {
+        display: block;
+        position: absolute;
+        margin-top: 600px;
+        color: lightslategray;
+        font-size: 25px;
+        width: 400px;
+        height: 100px;
+        margin-left: 20px;
+    }
+    #h4{
+        position: absolute;
+        border-top: 4px solid rgb(231, 73, 55);
+        width: 75px;
+        margin-top: -0.5px;
+    }
+}
